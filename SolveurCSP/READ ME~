@@ -1,0 +1,26 @@
+READ ME
+
+
+Le but du projet est de coder les algorithmes de BackJumping et ForwardChecking dans le but de les appliquer aux problèmes des n-dames et des n-pigeons.
+
+Pour executer le programme : 
+1 - make -B
+2 - ./main  1 pour les pigeon puis le nombres de valeur.	
+			2 pour les dames  
+
+Ce qui a été fait :
+	- Génération d'une instance du problème des n-pigeons
+	- initialisation des structures (fichier parse)
+	- Algorithme du Forward Checking sans heuristique
+
+Ce qui ne marche pas :
+	- Lecture du fichier après la génération d'une instance du problèmes des n-dames
+	- BackJumping
+
+Ce qui n'a pas été fait :
+	- Les heuristiques pour les différents algorithmes
+	- BackJumping
+
+Ce qui bug :
+	- Traitement avec Forward Checking du problème des pigeons et plus particulièrement lorsqu'il y a 4 pigeons boucle infinie
+ 

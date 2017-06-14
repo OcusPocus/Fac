@@ -1,0 +1,16 @@
+Format de fichier textes
+
+n : nombre de variable du CSP
+m : nombre de contrainte du CSP
+
+var : valeur possible de var
+1 : a b c d  
+2 : - - - -
+
+1 2:  (contrainte entre 1 et 2) VARIABLE
+(1,3) couple de valeur validant la contrainte VALEUR
+(,)
+
+1 4: (contrainte entre 1 et 4)
+(1,2)
+(,)

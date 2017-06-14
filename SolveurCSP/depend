@@ -1,0 +1,6 @@
+FC.o: FC.c ForwardChecking.h ModelCSP.h util.h
+ForwardChecking.o: ForwardChecking.c ForwardChecking.h ModelCSP.h util.h
+generator.o: generator.c generator.h ModelCSP.h
+main.o: main.c generator.h ModelCSP.h parser.h util.h ForwardChecking.h
+parser.o: parser.c parser.h util.h ModelCSP.h
+util.o: util.c util.h ModelCSP.h
